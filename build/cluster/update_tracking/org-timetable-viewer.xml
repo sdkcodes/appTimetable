@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.timetable.viewer">
+    <module_version install_time="1439257231391" last="true" origin="installer" specification_version="1.0">
+        <file crc="1961783419" name="config/Modules/org-timetable-viewer.xml"/>
+        <file crc="51772038" name="modules/org-timetable-viewer.jar"/>
+    </module_version>
+</module>

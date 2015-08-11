@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_timetable_viewer">
+                <file name="appViewer" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.timetable.viewer.appViewerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.timetable.viewer//appViewer//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="timetable">
+                    <folder name="viewer">
+                        <file name="appViewerTopComponent">
+                            <!--org.timetable.viewer.appViewerTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_timetable_viewer/appViewer.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_timetable_viewer">
+                <file name="appViewer.instance">
+                    <!--org.timetable.viewer.appViewerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.timetable.viewer.appViewerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.timetable.viewer.appViewerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-timetable-viewer-appViewerTopComponent.shadow">
+                <!--org.timetable.viewer.appViewerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-timetable-viewer-appViewerTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="appViewerTopComponent.settings">
+                <!--org.timetable.viewer.appViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.timetable.viewer.appViewerTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="appViewerTopComponent.wstcref">
+                    <!--org.timetable.viewer.appViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="appViewerTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-timetable-viewer-appViewerTopComponent.instance">
+                <!--org.timetable.viewer.appViewerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.timetable.viewer.appViewerTopComponent"/>
+                <attr name="preferredID" stringvalue="appViewerTopComponent"/>
+                <attr
+                    bundlevalue="org.timetable.viewer.Bundle#CTL_appViewerAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

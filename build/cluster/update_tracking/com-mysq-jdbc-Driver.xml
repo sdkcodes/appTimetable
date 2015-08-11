@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.mysq.jdbc.Driver">
+    <module_version install_time="1439257230784" last="true" origin="installer" specification_version="1.0">
+        <file crc="242708284" name="config/Modules/com-mysq-jdbc-Driver.xml"/>
+        <file crc="1269144698" name="modules/com-mysq-jdbc-Driver.jar"/>
+        <file crc="2793578012" name="modules/ext/mysql-connector-java-5.1.36-bin.jar"/>
+    </module_version>
+</module>

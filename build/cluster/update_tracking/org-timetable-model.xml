@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.timetable.model">
+    <module_version install_time="1439257231050" last="true" origin="installer" specification_version="1.0">
+        <file crc="686276397" name="config/Modules/org-timetable-model.xml"/>
+        <file crc="2669439085" name="modules/ext/appModelLibrary.jar"/>
+        <file crc="2312699833" name="modules/org-timetable-model.jar"/>
+    </module_version>
+</module>
