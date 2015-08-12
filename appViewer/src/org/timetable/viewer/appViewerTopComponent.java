@@ -2,7 +2,7 @@
  */
 package org.timetable.viewer;
 
-import appModelLibrary.Curso;
+import model.Curso;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;

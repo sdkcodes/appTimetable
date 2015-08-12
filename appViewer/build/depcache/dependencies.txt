@@ -15,6 +15,7 @@ javax.persistence.EntityManagerFactory
 javax.swing.GroupLayout$SequentialGroup
 org.timetable.viewer.CursoChildFactory
 javax.swing.GroupLayout$Alignment
+org.openide.explorer.ExplorerUtils
 org.openide.nodes.AbstractNode
 javax.swing.GroupLayout
 org.openide.windows.TopComponent$Description

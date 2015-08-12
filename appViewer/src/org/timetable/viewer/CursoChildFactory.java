@@ -2,7 +2,7 @@
  */
 package org.timetable.viewer;
 
-import appModelLibrary.Curso;
+import model.Curso;
 import java.beans.IntrospectionException;
 import java.util.List;
 import org.openide.nodes.BeanNode;

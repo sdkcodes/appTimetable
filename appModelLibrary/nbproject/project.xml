@@ -24,7 +24,7 @@
                 </dependency>
             </module-dependencies>
             <public-packages>
-                <package>appModelLibrary</package>
+                <package>model</package>
             </public-packages>
             <class-path-extension>
                 <runtime-relative-path>ext/appModelLibrary.jar</runtime-relative-path>
