@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.timetable.logic">
+    <module_version install_time="1439928976649" last="true" origin="installer" specification_version="1.0">
+        <file crc="649397837" name="config/Modules/org-timetable-logic.xml"/>
+        <file crc="1152807154" name="modules/org-timetable-logic.jar"/>
+    </module_version>
+</module>

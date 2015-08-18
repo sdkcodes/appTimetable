@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Wednesday, August 12, 2015 3:32:08 PM BRT
+>Log Session: Tuesday, August 18, 2015 5:15:40 PM BRT
 >System Info: 
   Product Version         = appTimetable 201411181905
   Operating System        = Windows 8 version 6.2 running on amd64
@@ -8,7 +8,7 @@
   Java Home               = C:\Program Files\Java\jdk1.8.0_40\jre
   System Locale; Encoding = en_US (apptimetable); Cp1252
   Home Directory          = C:\Users\Eric
-  Current Directory       = C:\Users\Eric\Documents\NetBeansProjects\appTimetable
+  Current Directory       = C:\Users\Eric\Documents\NetBeansProjects\appTimetable\appLogic
   User Directory          = C:\Users\Eric\Documents\NetBeansProjects\appTimetable\build\testuserdir
   Cache Directory         = C:\Users\Eric\Documents\NetBeansProjects\appTimetable\build\testuserdir\var\cache
   Installation            = C:\Users\Eric\Documents\NetBeansProjects\appTimetable\build\cluster
@@ -53,6 +53,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.options.api/1 [1.41.1 201411181905]
 	org.netbeans.core.windows/2 [2.77.2 201411181905]
 	org.timetable.viewer [1.0 150812]
+	org.timetable.logic [1.0 150818]
 	org.timetable.editor [1.0 150812]
 	org.netbeans.modules.progress.ui [1.29.2 201411181905]
 	org.netbeans.modules.print [7.22.1 201411181905]
@@ -80,91 +81,12 @@ INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network prox
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
 INFO [org.netbeans.ui.metrics.laf]: USG_LOOK_AND_FEEL
-SEVERE [org.openide.util.RequestProcessor]: Error in RequestProcessor org.openide.nodes.AsynchChildren
-java.lang.ClassCastException: model.Curso cannot be cast to appModelLibrary.Curso
-	at org.timetable.viewer.CursoChildFactory.createKeys(CursoChildFactory.java:27)
-	at org.openide.nodes.AsynchChildren.run(AsynchChildren.java:209)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-Caused: org.openide.util.RequestProcessor$SlowItem: task failed due to
-	at org.openide.util.RequestProcessor$Task.schedule(RequestProcessor.java:1464)
-	at org.openide.nodes.AsynchChildren.addNotify(AsynchChildren.java:89)
-	at org.openide.nodes.Children.callAddNotify(Children.java:575)
-	at org.openide.nodes.EntrySupportDefault.getArray(EntrySupportDefault.java:650)
-	at org.openide.nodes.EntrySupportDefault.getNodes(EntrySupportDefault.java:121)
-	at org.openide.nodes.EntrySupportDefault.getNodes(EntrySupportDefault.java:172)
-	at org.openide.nodes.EntrySupportDefault.getNodesCount(EntrySupportDefault.java:176)
-	at org.openide.nodes.Children.getNodesCount(Children.java:509)
-	at org.openide.explorer.view.VisualizerNode.getChildren(VisualizerNode.java:259)
-	at org.openide.explorer.view.VisualizerNode.getChildren(VisualizerNode.java:249)
-	at org.openide.explorer.view.VisualizerNode.getChildCount(VisualizerNode.java:326)
-	at javax.swing.tree.DefaultTreeModel.getChildCount(DefaultTreeModel.java:186)
-	at javax.swing.tree.FixedHeightLayoutCache$FHTreeStateNode.expand(FixedHeightLayoutCache.java:1153)
-	at javax.swing.tree.FixedHeightLayoutCache.rebuild(FixedHeightLayoutCache.java:618)
-	at javax.swing.tree.FixedHeightLayoutCache.treeStructureChanged(FixedHeightLayoutCache.java:490)
-	at javax.swing.plaf.basic.BasicTreeUI$Handler.treeStructureChanged(BasicTreeUI.java:3917)
-	at javax.swing.tree.DefaultTreeModel.fireTreeStructureChanged(DefaultTreeModel.java:580)
-	at javax.swing.tree.DefaultTreeModel.nodeStructureChanged(DefaultTreeModel.java:365)
-	at javax.swing.tree.DefaultTreeModel.setRoot(DefaultTreeModel.java:135)
-	at org.openide.explorer.view.NodeTreeModel$1.run(NodeTreeModel.java:123)
-	at org.openide.util.Mutex.doEvent(Mutex.java:1356)
-	at org.openide.util.Mutex.readAccess(Mutex.java:355)
-	at org.openide.explorer.view.NodeTreeModel.setNode(NodeTreeModel.java:108)
-	at org.openide.explorer.view.TreeView$4.run(TreeView.java:872)
-	at org.openide.util.Mutex.doEvent(Mutex.java:1356)
-	at org.openide.util.Mutex.readAccess(Mutex.java:355)
-	at org.openide.explorer.view.TreeView.synchronizeRootContext(TreeView.java:862)
-	at org.openide.explorer.view.TreeView.lookupExplorerManager(TreeView.java:700)
-	at org.openide.explorer.view.TreeView.addNotify(TreeView.java:680)
-	at java.awt.Container.addNotify(Container.java:2773)
-	at javax.swing.JComponent.addNotify(JComponent.java:4749)
-	at org.openide.windows.TopComponent.addNotify(TopComponent.java:281)
-	at java.awt.Container.addNotify(Container.java:2773)
-	at javax.swing.JComponent.addNotify(JComponent.java:4749)
-	at java.awt.Container.addNotify(Container.java:2773)
-	at javax.swing.JComponent.addNotify(JComponent.java:4749)
-	at org.netbeans.swing.tabcontrol.TabbedContainer.addNotify(TabbedContainer.java:967)
-	at org.netbeans.core.windows.view.ui.tabcontrol.TabbedAdapter.addNotify(TabbedAdapter.java:330)
-	at java.awt.Container.addNotify(Container.java:2773)
-	at javax.swing.JComponent.addNotify(JComponent.java:4749)
-	at java.awt.Container.addNotify(Container.java:2773)
-	at javax.swing.JComponent.addNotify(JComponent.java:4749)
-	at java.awt.Container.addImpl(Container.java:1119)
-	at java.awt.Container.add(Container.java:971)
-	at org.netbeans.core.windows.view.ui.DesktopImpl.setViewComponent(DesktopImpl.java:196)
-	at org.netbeans.core.windows.view.ui.DesktopImpl.setSplitRoot(DesktopImpl.java:160)
-	at org.netbeans.core.windows.view.ViewHierarchy.setSplitRootIntoDesktop(ViewHierarchy.java:663)
-	at org.netbeans.core.windows.view.ViewHierarchy.updateDesktop(ViewHierarchy.java:704)
-	at org.netbeans.core.windows.view.DefaultView.changeGUI(DefaultView.java:338)
-	at org.netbeans.core.windows.ViewRequestor.dispatchRequest(ViewRequestor.java:275)
-	at org.netbeans.core.windows.ViewRequestor.processRequest(ViewRequestor.java:251)
-	at org.netbeans.core.windows.ViewRequestor.postRequest(ViewRequestor.java:189)
-	at org.netbeans.core.windows.ViewRequestor.scheduleRequest(ViewRequestor.java:127)
-	at org.netbeans.core.windows.Central.insertModeOpenedTopComponent(Central.java:834)
-	at org.netbeans.core.windows.ModeImpl.addOpenedTopComponent(ModeImpl.java:362)
-	at org.netbeans.core.windows.LazyLoader.loadNow(LazyLoader.java:162)
-	at org.netbeans.core.windows.LazyLoader.access$400(LazyLoader.java:62)
-	at org.netbeans.core.windows.LazyLoader$2.run(LazyLoader.java:129)
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:749)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:702)
-	at java.awt.EventQueue$3.run(EventQueue.java:696)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:719)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-[catch] at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
 Diagnostic information
 Input arguments:
 	-Dnetbeans.logger.console=true
 	-ea
 	-Djdk.home=C:\Program Files\Java\jdk1.8.0_40
+	-splash:C:\Users\Eric\Documents\NetBeansProjects\appTimetable\build\testuserdir\var\cache\splash.png
 	-Dnetbeans.home=C:\Program Files\NetBeans 8.0.2\platform
 	-Dnetbeans.user=C:\Users\Eric\Documents\NetBeansProjects\appTimetable\build\testuserdir
 	-Dnetbeans.default_userdir_root=
@@ -176,9 +98,9 @@ Input arguments:
 Compiler: HotSpot 64-Bit Tiered Compilers
 Heap memory usage: initial 64.0MB maximum 892.5MB
 Non heap memory usage: initial 2.4MB maximum -1b
-Garbage collector: PS Scavenge (Collections=8 Total time spent=0s)
+Garbage collector: PS Scavenge (Collections=9 Total time spent=0s)
 Garbage collector: PS MarkSweep (Collections=2 Total time spent=0s)
-Classes: loaded=6370 total loaded=6370 unloaded 0
+Classes: loaded=6350 total loaded=6350 unloaded 0
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 4,202,979,328
 INFO [null]: Total physical memory 4,202,979,328
 WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/Window/ marked with the position attribute: [org-timetable-editor-appEditorTopComponent.shadow, org-timetable-viewer-appViewerTopComponent.shadow], but some are: [org-netbeans-core-io-ui-IOWindowAction.shadow, SwitchToRecentDocumentAction.shadow, Web, Tools, Separator3.instance, ConfigureWindow, org-netbeans-core-windows-actions-ResetWindowsAction.shadow, Separator4.instance, CloseWindowAction.shadow, CloseAllDocumentsAction.shadow, CloseAllButThisAction.shadow, GroupsMenuAction.shadow, DocumentsAction.shadow]

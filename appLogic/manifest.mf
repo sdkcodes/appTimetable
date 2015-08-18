@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: org.timetable.logic
+OpenIDE-Module-Localizing-Bundle: org/timetable/logic/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
